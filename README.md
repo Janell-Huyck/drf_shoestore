@@ -16,8 +16,10 @@ From your terminal:
   * $ python manage.py makemigrations
   * $ python manage.py migrate
 * Run the custom command: $ python manage.py bootstrap_data
+  * Note: because of the way this project is set up, this step is mandatory
 * Make your own superuser: $ python manage.py createsuperuser
 * Start the server locally: $ python manage.py runserver
+* Navigate over to the admin panel ( http://127.0.0.1:8000/admin/ ) and add manufacturer(s) and shoe(s)
 
 ## Accessing the API
 All API endpoints are accessed with the /API/ url.  For example, the main API on your local host is at http://127.0.0.1:8000/API/
