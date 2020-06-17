@@ -17,11 +17,11 @@ From your terminal:
 * Start the server locally: $ python manage.py runserver
 
 ## Accessing the API
-All API endpoints are accessed with the /API/ url.  For example, the main API on your local host is at http://127.0.0.1:8000/API/
+All API endpoints are accessed with the /api/ url.  For example, the main API on your local host is at http://127.0.0.1:8000/api/
 
 ## Easter Egg
 There is a "plausible, but likely false, fact about Joe's life growing up on the African Savanna 
-as a comment somewhere in the codebase". (As requested by the assessment's rubric)  Happy hunting!
+as a comment somewhere in the codebase". (As requested by the assessment's rubric)  Enjoy!
 
 
 
