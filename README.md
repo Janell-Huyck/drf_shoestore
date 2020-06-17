@@ -12,6 +12,9 @@ From your terminal:
 * Make a clone of the project: $ git clone https://github.com/Janell-Huyck/drf_shoestore.git
 * Set up the virtual environment via poetry: $ poetry install
 * Activate the virtual environment: $ poetry shell
+* Make and migrate the tables: 
+  * $ python manage.py makemigrations
+  * $ python manage.py migrate
 * Run the custom command: $ python manage.py bootstrap_data
 * Make your own superuser: $ python manage.py createsuperuser
 * Start the server locally: $ python manage.py runserver
