@@ -28,11 +28,9 @@ class ShoeViewSet(ModelViewSet):
 
 class ShoeColorViewSet(ModelViewSet):
     serializer_class = ShoeColorSerializer
-    base_name = 'shoe_color'
     queryset = ShoeColor.objects.all()
 
 
 class ShoeTypeViewSet(ModelViewSet):
     serializer_class = ShoeTypeSerializer
-    base_name = 'shoe_type'
     queryset = ShoeType.objects.all()
