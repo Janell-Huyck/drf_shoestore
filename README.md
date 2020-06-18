@@ -1,3 +1,5 @@
+The frontend for this project is at: https://github.com/Janell-Huyck/drf_shoestore_frontend
+
 # drf_shoestore
 
 This project is an exploration of the Django REST framework.  It creates an API for a potential "shoe store"
